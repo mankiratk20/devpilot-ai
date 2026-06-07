@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>DevPilot AI</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>DevPilot AI</h1>
+
+        <p class="tagline">
+            AI-Powered Production Workflow Assistant
+        </p>
+
+        <textarea id="codeInput"
+            placeholder="Paste your code here..."></textarea>
+
+        <button onclick="analyzeCode()">
+            Analyze Workflow
+        </button>
+        
+
+        <div id="loader" class="hidden">
+            AI analyzing production pipeline...
+        </div>
+
+        <div id="output"></div>
+
+    </div>
+
+    <script src="./script.js"></script>
+
+</body>
+</html>
