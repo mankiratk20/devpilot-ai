@@ -43,6 +43,4 @@ DevPilot AI uses Generative AI to automate critical stages of software productio
 4. Open:
    http://localhost/devpilot-ai
 
-## Team
-
-Hackathon Submission Project
+   DEMO LINK-https://devpilot-ai.infinityfree.me/
